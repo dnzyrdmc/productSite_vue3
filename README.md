@@ -1,29 +1,21 @@
 # productSite
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Bu proje, Vue 3, Vuex, Axios, Mixins ve Options API kullanılarak geliştirilmiş bir alışveriş sitesi uygulamasıdır.  
+Projenin temel amacı, modern JavaScript teknolojilerini kullanarak hem hızlı hem de kullanıcı dostu bir e-ticaret deneyimi sunmaktır.  
 
-## Customize configuration
+Uygulama içerisinde ürünler, **dummyjson** API’sinden Axios kütüphanesi aracılığıyla çekilmektedir. Bu sayede gerçek bir veri kaynağı ile çalışma mantığı simüle edilerek, dinamik olarak güncellenen bir ürün listesi oluşturulmuştur.  
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+**Vuex** kullanımı sayesinde proje içerisinde state yönetimi çok daha düzenli ve anlaşılır bir yapıya kavuşturulmuştur. Böylece farklı bileşenler arasında veri akışı kolaylıkla sağlanmış ve kod karmaşasının önüne geçilmiştir.  
 
-## Project Setup
+Ayrıca, **Mixins** yapısı kullanılarak tekrar eden fonksiyonlar ve mantıklar tek bir yerde toplanmış, kodun bakım ve genişletilebilirlik açısından daha sürdürülebilir olması sağlanmıştır.  
 
-```sh
-npm install
-```
+**Projenin çalıştırılması** oldukça basittir:  
+1. Gerekli bağımlılıkları yüklemek için:  npm install
 
-### Compile and Hot-Reload for Development
+2. Projeyi başlatmak için:  npm run serve
 
-```sh
-npm run dev
-```
 
-### Compile and Minify for Production
+Bu adımların ardından proje yerel sunucuda çalışmaya başlayacak ve tarayıcınız üzerinden alışveriş sitesini görüntüleyebileceksiniz.  
 
-```sh
-npm run build
-```
