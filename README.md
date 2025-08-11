@@ -1,6 +1,7 @@
 # productSite
 
-
+![Proje Örnek Resmi](proje2.png)
+![Proje Örnek Resmi](proje1.png)
 
 Bu proje, Vue 3, Vuex, Axios, Mixins ve Options API kullanılarak geliştirilmiş bir alışveriş sitesi uygulamasıdır.  
 Projenin temel amacı, modern JavaScript teknolojilerini kullanarak hem hızlı hem de kullanıcı dostu bir e-ticaret deneyimi sunmaktır.  
